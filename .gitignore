@@ -1,0 +1,25 @@
+# Lead data stays local (hard rule 6)
+data/
+.browser-session/
+
+# Any exports or spreadsheets outside test fixtures
+*.csv
+*.xlsx
+*.xls
+!tests/fixtures/*.csv
+!tests/fixtures/*.xlsx
+
+# Local config written by the slash commands (examples are committed)
+config/icp_weights.json
+config/sequence.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Personal Claude Code settings (machine-specific, never commit)
+.claude/settings.local.json

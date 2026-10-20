@@ -1,0 +1,16 @@
+{
+  "criteria": [
+    {"label": "Target title", "points": 35, "fields": ["title"], "match": "any_keyword",
+     "values": ["vp sales", "head of sales", "cro", "chief revenue officer", "director of sales",
+                "head of demand gen", "revenue operations", "sdr manager"]},
+    {"label": "Seniority", "points": 15, "fields": ["seniority", "title"], "match": "any_keyword",
+     "values": ["chief", "vp", "svp", "evp", "head", "director"]},
+    {"label": "Company size", "points": 20, "fields": ["company_size"], "match": "size_range",
+     "min": 51, "max": 1000},
+    {"label": "Location", "points": 10, "fields": ["country", "location"], "match": "any_keyword",
+     "values": ["united states", "canada", "united kingdom"]},
+    {"label": "Recent job change", "points": 10, "fields": ["recent_job_change"], "match": "yes"},
+    {"label": "New in role (under 18 months)", "points": 10, "fields": ["tenure_months"],
+     "match": "number_range", "min": 0, "max": 18}
+  ]
+}

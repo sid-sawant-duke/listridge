@@ -1,0 +1,19 @@
+{
+  "sender": {
+    "name": "Alex Rivera",
+    "company": "Pipeline Co",
+    "what_you_sell": "Software that cleans and routes inbound leads so SDRs reply to hot leads in under 5 minutes.",
+    "sign_off": "Alex"
+  },
+  "touches": [
+    {"day": 1, "purpose": "Intro: one relevant observation, the problem we solve, soft CTA"},
+    {"day": 4, "purpose": "Follow-up: short bump with one new angle or proof point"},
+    {"day": 9, "purpose": "Breakup: polite last note, easy yes/no question"}
+  ],
+  "tone": "friendly and direct, no hype",
+  "length": "short: under 90 words per email",
+  "cta": "a 15-minute call next week",
+  "voice_samples": [],
+  "always_include": [],
+  "avoid": ["exclamation marks", "\"I hope this finds you well\"", "made-up stats"]
+}
