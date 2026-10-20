@@ -84,3 +84,7 @@ To log out of browser mode completely, delete the `.browser-session` folder.
 - Processing lives in `scripts/engine.py`. Run `.venv/bin/python scripts/engine.py --help` to see every step.
 - Tests: `.venv/bin/python -m unittest`
 - Project rules for Claude are in `CLAUDE.md`.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
