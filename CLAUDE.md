@@ -1,4 +1,4 @@
-# Listwright
+# Listridge
 
 ## What this project is
 
@@ -22,7 +22,7 @@ Platform: macOS only for now. Windows support comes later.
 ## Directory structure
 
 ```
-listwright/
+listridge/
 ├── README.md
 ├── CLAUDE.md
 ├── install.sh                 # Checks dependencies, sets up folders, installs Playwright (only needed for browser mode)

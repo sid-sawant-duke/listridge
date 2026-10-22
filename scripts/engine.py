@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Listwright CLI.
+"""Listridge CLI.
 
 Each step reads and writes files inside data/work/<run>/ so every step can be
 re-run and inspected. Output is JSON on stdout for the slash commands to read;

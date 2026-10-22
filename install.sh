@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Listwright installer. Safe to run more than once.
+# Listridge installer. Safe to run more than once.
 set -euo pipefail
 
 cd "$(dirname "$0")"
@@ -7,7 +7,7 @@ cd "$(dirname "$0")"
 say()  { printf '%s\n' "$1"; }
 fail() { printf '\n❌ %s\n   Next step: %s\n' "$1" "$2"; exit 1; }
 
-say "Setting up Listwright..."
+say "Setting up Listridge..."
 
 # 1. macOS only for now
 if [[ "$(uname)" != "Darwin" ]]; then

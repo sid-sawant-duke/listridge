@@ -1,4 +1,4 @@
-# Listwright
+# Listridge
 
 Turn a list of leads into a clean, scored, ready-to-import CSV, with a personalized email sequence written for every lead.
 
@@ -18,7 +18,7 @@ It runs on your Mac inside Claude Code. **It never sends anything.** You get a f
 You need a Mac with [Claude Code](https://claude.com/claude-code) and Python 3.9 or newer. If Python is missing, the installer tells you how to get it.
 
 ```bash
-cd listwright
+cd listridge
 ./install.sh
 claude
 ```
