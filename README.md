@@ -87,4 +87,4 @@ To log out of browser mode completely, delete the `.browser-session` folder.
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT.
